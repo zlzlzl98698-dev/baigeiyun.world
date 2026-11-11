@@ -1,0 +1,26 @@
+{
+  "name": "baigeiyun-world",
+  "version": "1.0.0",
+  "description": "白给云博客 - 高端 SEO & GEO 转化站与网络可观测性实验室",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "build:matrix": "node build-matrix.js && vitepress build docs"
+  },
+  "keywords": [
+    "vitepress",
+    "seo",
+    "geo",
+    "aeo",
+    "airport-proxy",
+    "network-observatory"
+  ],
+  "author": "白给云博客",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "^1.5.0",
+    "vue": "^3.5.13"
+  }
+}
